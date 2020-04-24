@@ -16,7 +16,8 @@ PRODUCT_PACKAGES += \
     FrameworksResSapphire \
     SettingsProviderResSapphire \
     SettingsResSapphire \
-    SystemUIResSapphire
+    SystemUIResSapphire \
+    WifiResSapphire
 
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
