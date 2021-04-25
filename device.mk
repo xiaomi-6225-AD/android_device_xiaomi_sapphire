@@ -10,6 +10,9 @@ $(call inherit-product, device/xiaomi/sm6225-common/common.mk)
 # Inherit from the proprietary version
 $(call inherit-product, vendor/xiaomi/sapphire/sapphire-vendor.mk)
 
+# Fingerprint
+TARGET_HAS_FOD := true
+
 # Overlays
 PRODUCT_PACKAGES += \
     ApertureResSapphire \
