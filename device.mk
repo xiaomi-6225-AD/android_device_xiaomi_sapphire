@@ -14,6 +14,7 @@ $(call inherit-product, vendor/xiaomi/sapphire/sapphire-vendor.mk)
 PRODUCT_PACKAGES += \
     ApertureResSapphire \
     FrameworksResSapphire \
+    SettingsProviderResSapphire \
     SettingsResSapphire \
     SystemUIResSapphire
 
