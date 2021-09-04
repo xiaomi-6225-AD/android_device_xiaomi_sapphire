@@ -13,6 +13,7 @@ $(call inherit-product, vendor/xiaomi/sapphire/sapphire-vendor.mk)
 # Overlays
 PRODUCT_PACKAGES += \
     FrameworksResSapphire \
+    SettingsResSapphire \
     SystemUIResSapphire
 
 # Soong namespaces
