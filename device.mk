@@ -11,7 +11,7 @@ $(call inherit-product, device/xiaomi/sm6225-common/common.mk)
 $(call inherit-product, vendor/xiaomi/sapphire/sapphire-vendor.mk)
 
 # Fingerprint
-TARGET_HAS_FOD := true
+TARGET_HAS_UDFPS := true
 
 # Overlays
 PRODUCT_PACKAGES += \
