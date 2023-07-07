@@ -10,6 +10,8 @@ include device/xiaomi/sm6225-common/BoardConfigCommon.mk
 # Inherit from the proprietary version
 include vendor/xiaomi/sapphire/BoardConfigVendor.mk
 
+ALLOW_MISSING_DEPENDENCIES := true
+
 DEVICE_PATH := device/xiaomi/sapphire
 KERNEL_PATH := $(DEVICE_PATH)-kernel
 
