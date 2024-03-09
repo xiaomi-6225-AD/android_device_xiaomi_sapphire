@@ -666,9 +666,9 @@ vendor/etc/qdcm_calib_data_m7_38_0c_0b_video_mode_fhdp_dsi_panel.xml
 vendor/etc/qdcm_calib_data_n7_38_0c_0a_video_mode_fhdp_dsi_panel.xml
 
 # Fingerprint
-odm/lib64/hw/fingerprint.fpc_fod.default.so
-odm/lib64/hw/fingerprint.goodix_fod.default.so
-odm/lib64/libgf_hal.so
+odm/lib64/hw/fingerprint.fpc_fod.default.so:vendor/lib64/hw/fingerprint.fpc_fod.default.so
+odm/lib64/hw/fingerprint.goodix_fod.default.so:vendor/lib64/hw/fingerprint.goodix_fod.default.so
+odm/lib64/libgf_hal.so:vendor/lib64/libgf_hal.so
 vendor/bin/hw/android.hardware.biometrics.fingerprint@2.1-service_lc
 vendor/etc/init/android.hardware.biometrics.fingerprint@2.1-service_lc.rc
 vendor/etc/vintf/manifest/android.hardware.biometrics.fingerprint@2.1-service.xml
@@ -678,8 +678,8 @@ vendor/lib64/vendor.xiaomi.hardware.fingerprintextension@1.0.so
 vendor/lib64/vendor.xiaomi.hardware.fx.tunnel@1.0.so
 
 # Firmware touch
-odm/firmware/Conf_MultipleTest_ft3519t.ini
-odm/firmware/focaltech_ts_fw_samsung_ft3519t.bin
+odm/firmware/Conf_MultipleTest_ft3519t.ini:vendor/firmware/Conf_MultipleTest_ft3519t.ini
+odm/firmware/focaltech_ts_fw_samsung_ft3519t.bin:vendor/firmware/focaltech_ts_fw_samsung_ft3519t.bin
 
 # Firmware vendor
 vendor/firmware/a610_zap.b00
