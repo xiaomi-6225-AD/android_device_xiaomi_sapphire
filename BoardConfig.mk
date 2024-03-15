@@ -13,6 +13,9 @@ include vendor/xiaomi/sapphire/BoardConfigVendor.mk
 DEVICE_PATH := device/xiaomi/sapphire
 KERNEL_PATH := $(DEVICE_PATH)-kernel
 
+# Display
+TARGET_SCREEN_DENSITY := 420
+
 # Init
 TARGET_INIT_VENDOR_LIB := //$(DEVICE_PATH):init_sapphire
 TARGET_RECOVERY_DEVICE_MODULES := init_sapphire
