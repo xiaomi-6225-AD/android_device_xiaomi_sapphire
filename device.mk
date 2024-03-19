@@ -14,6 +14,10 @@ $(call inherit-product, vendor/xiaomi/sapphire/sapphire-vendor.mk)
 PRODUCT_AAPT_CONFIG := normal
 PRODUCT_AAPT_PREF_CONFIG := xxhdpi
 
+# Boot animation
+TARGET_SCREEN_HEIGHT := 2400
+TARGET_SCREEN_WIDTH := 1080
+
 # Fingerprint
 TARGET_HAS_UDFPS := true
 
